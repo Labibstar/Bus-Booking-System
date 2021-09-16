@@ -1,0 +1,22 @@
+<?php 
+ 	require 'connect.php';
+
+ 	$id=$_POST['id'];
+
+ 	$query= "SELECT * FROM passenger WHERE id='$id'";
+ 	$result=mysqli_query($conn,$query);
+
+ 	$data= array();
+ 	while($row =mysqli_fetch_assoc($result)){
+
+ 		$data[] = $row;
+
+ 	}
+
+ 	echo json_encode($data);
+
+ 	
+
+
+
+?>

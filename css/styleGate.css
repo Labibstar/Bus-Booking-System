@@ -1,0 +1,30 @@
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+.container{
+	transform: translate(13%,65%);
+
+}
+#ticketBox{
+	border-radius: 15px;
+	padding-bottom: 1%;
+	margin-top: 1%;
+}
+#masterBox{
+	border-radius: 15px;
+	margin-top: 1%;
+	padding-top: 7%;
+	padding-bottom: 20%;
+
+}
+#loginbtn{
+	margin-left: 35%;
+}
+#enterTicketbtn{
+	margin-left: 35%;
+}
+footer{
+	transform: translate(0vh,73vh);
+
+}

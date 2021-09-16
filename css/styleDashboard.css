@@ -1,0 +1,48 @@
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+#navcol{
+	background: darkblue ;
+	position: fixed;
+	height: 100%;
+	width: 15%;
+	line-height: 1.5;
+	color:antiquewhite;
+	font-color:antiquewhite;
+	z-index: +1;
+	
+
+
+}
+
+.nav-link{
+	margin-left: 10%; 
+	margin-top: 5%;
+	color:white;
+}
+
+
+#passengerBox{
+	position: relative;
+	align-left;
+	max-width: 70%;
+	margin-left: 20%;
+	margin-top: 3%;
+}
+#scheduleBox{
+	position: relative;
+	align-left;
+	max-width: 70%;
+	margin-left: 20%;
+	margin-top: 3%;
+}
+#routeBox{
+	position: relative;
+	align-left;
+	max-width: 70%;
+	margin-left: 20%;
+	margin-top: 3%;
+
+}

@@ -1,0 +1,85 @@
+img{
+	height:50px;
+	width:50px;
+	background-color:;
+}
+.container-fluid{
+	transform: translate(0%,15%);
+
+
+}
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.seatRow{
+	max-width: 	520px;
+	padding:9px;
+}
+#backSeats{
+	margin-right: 10%;
+
+
+	}
+
+
+
+#layout1{
+	margin-top: 2%;
+	background: white;
+	max-width:45%;
+	border-radius: 15px;
+}
+#layout2{
+	margin-top: 2%;
+	background: white;
+	border-radius: 15px;
+	max-width:50%;
+}
+.col-3{
+	margin-top: 2%;
+	margin-left:4%;
+}
+
+.col-8{
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-bottom: 1%;
+}
+
+
+#enterTicketbtn{
+	margin-top: 11%;
+}
+#loadBusbtn{
+	margin-top: 11%;
+}
+footer{
+	color:white;
+	transform: translate(0vh,4vh);
+}
+
+@media(max-width: 991px){
+#enterTicketbtn{
+	margin-top: 2%;
+}
+#loadBusbtn{
+	margin-top: 2%;
+}
+#layout1{
+	max-width:80%;
+}
+#layout2{
+	max-width:80%;
+
+}
+.nav{
+	margin-bottom: 10%
+}
+}
+@media(max-width: 991px){
+	.nav{
+	margin-bottom: 15%
+}
+}

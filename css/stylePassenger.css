@@ -1,0 +1,14 @@
+.container-fluid{
+	transform: translate(25%,37%);
+
+}
+.row{
+	margin-bottom: 2%;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+footer{
+	transform: translate(0vh,67.5vh);
+}

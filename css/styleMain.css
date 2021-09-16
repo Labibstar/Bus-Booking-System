@@ -1,0 +1,74 @@
+.nav{
+	background-color: rgba(0,0,0,0.01);
+
+}
+
+body{
+transition: all 1s ease; 
+font-family: 'Oswald', sans-serif;
+}
+.textover{
+	margin-left: 28%;
+	margin-top: 57%;
+	z-index: 5;
+
+	
+	
+
+}
+.textover:hover{
+	transform: scale(1.04);
+
+	}
+
+button{
+	margin-left: 20%;
+}
+
+.container-fluid .row .col-4{
+	height: 87vh ;
+
+}
+#bookDiv{
+	background: url(../Images/bus_travel1.jpg);
+	color: #E67E22 ;
+	
+	
+
+	 }
+
+#chooseDiv{
+	background: url(../Images/seat3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FAFAFA ;
+	
+	
+}
+
+#adminDiv{
+	background: url(../Images/admin_panel3.jpg);
+	color: #FF0000;
+	background-size: cover;
+}
+
+
+
+#chooseDiv:hover{
+	transform: scale(1.04);
+	
+	z-index:+1;
+
+	
+}
+
+#bookDiv:hover{
+	transform: scale(1.04);
+	
+	z-index:+1;
+}
+#adminDiv:hover{
+	transform: scale(1.04);
+	
+	z-index:+1;
+}
